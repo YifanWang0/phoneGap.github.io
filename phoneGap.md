@@ -1,1 +1,1 @@
-## Information about Phone Gap
+## Webpage about Phone Gap
