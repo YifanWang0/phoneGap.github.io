@@ -1,4 +1,10 @@
-body{
+#top{
+  background-color: black;
+  color: #f9f9f9;
+  padding: 15px;
+  text-align: center;
+}
+#bot{
   padding: 3%;
 }
 pre {
