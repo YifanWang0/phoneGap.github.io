@@ -7,6 +7,7 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 <title>Phone Gap</title>
 </head>
 
@@ -74,7 +75,7 @@
     <h3>Installation CLI</h3>
 
       <pre> Windows: npm install -g phonegap@latest </pre>
-      <pre>Mac/Linux: sudo npm install -g phonegap@latest </pre>
+      <pre> Mac/Linux: sudo npm install -g phonegap@latest </pre>
 
     <h3>Installing PhoneGap Desktop App</h3>
     <ul>
@@ -92,13 +93,32 @@
         cd &lt;appName&gt;
         phonegap serve
       </pre>
-
       <h3>Important CLI commands<h3>
 
         <h3>Coding on New App (CLI Version)</h3>
 
-        <h3>Coding on New App (Desktop App Version)</h3>
+        <h5>The main commands you need to know to create your app is create and serve.
+        Create creates the files that you need for your app and serve runs it so you can see the results of your code.<h5>
 
+        You can use this command to create:
+
+        Or if you want to add an optional id and name:
+
+        Now to run it, you use the following command:
+
+        <h3>Coding on New App (Desktop App Version)</h3>
+        <h5>Coding your app is pretty easy. To make your app, you just have to change the appropriate files. First, let's look at a tree diagram of the relevant files created from the create command.</h5>
+
+        <h5>Based on this diagram, you can easily see that all your html goes into index.html, css goes into the index.css and all javascript goes into the index.js. The other files have their functionalities, but coding your app stays in mainly these three files.</h5>
+        <h5>If you enter each of the three files, you see the template code that renders this image:</h5>
+
+        <h5>Here's the templates: </h5>
+
+        <h5>Now insert your code into the three files like so:</h5>
+
+        <h3>Rendering App</h3>
+
+        <h5>Now serve your app and connect to your mobile app. You should see changes in your app: <h5>
         <h3>Compiling and Launching</h3>
 
         <h3>Mobile Downloading</h3>
